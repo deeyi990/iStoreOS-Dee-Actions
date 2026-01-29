@@ -6,7 +6,7 @@ on:
       openwrt_board:
         description: "1、请选择设备型号"
         required: true
-        default: ""
+        default: "Generic"
         type: choice
         options:
           - a311d-oes_s922x-oes-plus_wxy-oect
